@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearTuCartaFragment"
+    android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="CREA TU CARTA"
+            android:textColor="@color/black"
+            android:textSize="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="178dp"
+            android:layout_height="264dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
+            app:layout_constraintVertical_bias="0.071" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="88dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/log_in_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout4"
+            app:layout_constraintTop_toBottomOf="@+id/textView25">
+                <ImageView
+
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icono"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="88dp"
+            android:layout_height="79dp"
+           android:background="@drawable/log_in_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout4"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+                <ImageView
+
+                    android:id="@+id/imageView90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icono"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="88dp"
+            android:layout_height="79dp"
+            android:background="@drawable/log_in_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout4"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+                <ImageView
+
+                    android:id="@+id/imageView88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icono"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="wrap_content"
+            android:layout_height="239dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                                android:text="Media"
+                            android:textColor="@color/black"/>
+
+                        <EditText
+                            android:layout_width="294dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Gris"
+                            android:text="Introduce la media" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Posición"
+                                android:textColor="@color/black"/>
+                        <EditText
+                            android:layout_width="294dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Gris"
+                            android:text="Introduce la posición" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nacionalidad"
+                            android:textColor="@color/black"/>
+
+
+                        <ImageButton
+                            android:tint="@color/black"
+                            android:backgroundTint="@color/azul_cian"
+                            android:id="@+id/imageButton4"
+                            android:layout_width="41dp"
+                            android:layout_height="37dp"
+                            android:src="@android:drawable/ic_menu_gallery" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Equipo"
+                            android:textColor="@color/black"/>
+                        <ImageButton
+                            android:tint="@color/black"
+                            android:backgroundTint="@color/azul_cian"
+                            android:id="@+id/imageButton5"
+                            android:layout_width="41dp"
+                            android:layout_height="37dp"
+                            android:src="@android:drawable/ic_menu_gallery" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cara del jugador"
+                            android:textColor="@color/black"/>
+                        <ImageButton
+                            android:tint="@color/black"
+                            android:backgroundTint="@color/azul_cian"
+                            android:id="@+id/imageButton6"
+                            android:layout_width="41dp"
+                            android:layout_height="37dp"
+                            android:src="@android:drawable/ic_menu_gallery" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ritmo"
+                            android:textColor="@color/black"/>
+                        <EditText
+                            android:layout_width="294dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Gris"
+                            android:text="Introduce el ritmo" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiro"
+                            android:textColor="@color/black"/>
+                        <EditText
+                            android:layout_width="294dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Gris"
+                            android:text="Introduce el tiro" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pase"
+                            android:textColor="@color/black"/>
+                        <EditText
+                            android:layout_width="294dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Gris"
+                            android:text="Introduce el pase" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Regate"
+                            android:textColor="@color/black"/>
+                        <EditText
+                            android:layout_width="294dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Gris"
+                            android:text="Introduce el regate" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Defensa"
+                            android:textColor="@color/black"/>
+                        <EditText
+                            android:layout_width="294dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Gris"
+                            android:text="Introduce la defensa" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Físico"
+                            android:textColor="@color/black"/>
+                        <EditText
+                            android:layout_width="294dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Gris"
+                            android:text="Introduce el físico" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/azul_cian"
+                            android:text="Descargar"
+                            android:textColor="@color/black" />
+
+
+                </LinearLayout>
+        </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

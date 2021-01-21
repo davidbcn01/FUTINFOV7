@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/jugadoresValiososFragment">
+
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.futinfov2.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.futinfov2.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.futinfov2.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.futinfov2.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/jugadoresValiososFragment"
+        android:name="com.example.futinfov2.JugadoresValiososFragment"
+        android:label="fragment_jugadores_valiosos"
+        tools:layout="@layout/fragment_jugadores_valiosos" />
+    <fragment
+        android:id="@+id/crearTuCartaFragment"
+        android:name="com.example.futinfov2.CrearTuCartaFragment"
+        android:label="fragment_crear_tu_carta"
+        tools:layout="@layout/fragment_crear_tu_carta" />
+    <fragment
+        android:id="@+id/tacticas1Fragment"
+        android:name="com.example.futinfov2.Tacticas1Fragment"
+        android:label="fragment_tacticas1"
+        tools:layout="@layout/fragment_tacticas1" />
+    <fragment
+        android:id="@+id/objetivos1Fragment"
+        android:name="com.example.futinfov2.Objetivos1Fragment"
+        android:label="fragment_objetivos1"
+        tools:layout="@layout/fragment_objetivos1" />
+    <fragment
+        android:id="@+id/objetivosDiariosFragment"
+        android:name="com.example.futinfov2.ObjetivosDiariosFragment"
+        android:label="fragment_objetivos_diarios"
+        tools:layout="@layout/fragment_objetivos_diarios" />
+</navigation>
