@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -33,7 +34,115 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
-    <ScrollView
+    <com.google.android.flexbox.FlexboxLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="80dp"
+        app:alignContent="stretch"
+        app:alignItems="stretch"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_evenly"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27">
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton90"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton80"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton87"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton81"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton82"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton83"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton84"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton85"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton86"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton65"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton88"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton89"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton45"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+        <ImageButton
+            android:id="@+id/imageButton57"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flecha" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+    <!--<ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="343dp"
         android:layout_height="115dp"
@@ -45,10 +154,17 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
+            android:orientation="horizontal" >
 
-    <ScrollView
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flecha" />
+        </LinearLayout>
+    </ScrollView>
+-->
+   <!-- <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="343dp"
         android:layout_height="115dp"
@@ -68,7 +184,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="TextView"
+        android:text="Tácticas defensivas"
+        android:textColor="@color/black"
+        android:textSize=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,4 +213,6 @@
         app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView30" />
+        -->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
